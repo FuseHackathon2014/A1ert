@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="MARGIN_GLASS_BORDER">1px</dimen>
+</resources>

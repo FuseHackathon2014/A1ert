@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">A1ert</string>
+    <string name="command_openapp">Take a note</string>
+    <string name="record_message">Start Recording Your Message</string>
+    <string name="confirmation">Tap if this is correct</string>
+    <string name="sending_status">Sending Note to Healthcare Provider</string>
+    <string name="sending_success">Note saved successfully!</string>
+    <string name="sending_failed">Note failed to save!</string>
+</resources>

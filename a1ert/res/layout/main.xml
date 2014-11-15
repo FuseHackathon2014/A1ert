@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_margin="@dimen/MARGIN_GLASS_BORDER">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Default Message"
+            android:id="@+id/message"
+            android:layout_alignParentTop="false" android:layout_centerHorizontal="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/confirmation"
+            android:id="@+id/confirmation" android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+</RelativeLayout>
+

@@ -1,0 +1,178 @@
+<definitions>
+	<definition name="S" end="true">
+		<rule>
+			<token>NP</token>
+			<token>VP</token>
+		</rule>
+		<rule>
+			<token>S</token>
+			<token>CONJ</token>
+			<token>S</token>
+		</rule>
+	</definition>
+	<definition name="NP" end="false">
+		<rule>
+			<token>N</token>
+		</rule>
+
+		<rule>
+			<token>ART</token>
+			<token>NP</token>
+		</rule>
+
+		<rule>
+			<token>DET</token>
+			<token>NP</token>
+		</rule>
+
+		<rule>
+			<token>NP</token>
+			<token>PREP</token>
+		</rule>
+
+		<rule>
+			<token>PREP</token>
+			<token>NP</token>
+		</rule>
+
+		<rule>
+			<token>NP</token>
+			<token>CONJ</token>
+			<token>NP</token>
+		</rule>
+
+		<rule>
+			<token>ADJP</token>
+			<token>NP</token>
+		</rule>
+	</definition>
+	<definition name="VP" end="false">
+		<rule>
+			<token>VP</token>
+			<token>NP</token>
+		</rule>
+
+		<rule>
+			<token>TO</token>
+			<token>V</token>
+		</rule>
+
+		<rule>
+			<token>TO</token>
+			<token>VP</token>
+		</rule>
+
+		<rule>
+			<token>V</token>
+			<token>NP</token>
+		</rule>
+
+		<rule>
+			<token>VP</token>
+			<token>ADJP</token>
+		</rule>
+
+		<rule>
+			<token>V</token>
+			<token>ADJP</token>
+		</rule>
+
+		<rule>
+			<token>VP</token>
+			<token>ADVP</token>
+		</rule>
+
+		<rule>
+			<token>VP</token>
+			<token>ADVP</token>
+		</rule>
+
+		<rule>
+			<token>V</token>
+			<token>ADVP</token>
+		</rule>
+
+		<rule>
+			<token>ADVP</token>
+			<token>V</token>
+		</rule>
+
+		<rule>
+			<token>NEG</token>
+			<token>VP</token>
+		</rule>
+
+		<rule>
+			<token>NEG</token>
+			<token>V</token>
+		</rule>
+
+		<rule>
+			<token>V</token>
+			<token>VP</token>
+		</rule>
+
+		<rule>
+			<token>VP</token>
+			<token>CONJ</token>
+			<token>VP</token>
+		</rule>
+
+		<rule>
+			<token>V</token>
+			<token>CONJ</token>
+			<token>VP</token>
+		</rule>
+
+		<rule>
+			<token>V</token>
+			<token>WALL</token>
+		</rule>
+	</definition>
+	<definition name="PP" end="false">
+	</definition>
+	<definition name="ADJP" end="false">
+		<rule>
+			<token>ADJ</token>
+		</rule>
+
+		<rule>
+			<token>NEG</token>
+			<token>ADJP</token>
+		</rule>
+		
+		<rule>
+			<token>ADV</token>
+			<token>ADJ</token>
+		</rule>
+
+		<rule>
+			<token>ADV</token>
+			<token>ADJp</token>
+		</rule>
+
+		<rule>
+			<token>ADJP</token>
+			<token>CONJ</token>
+			<token>ADJP</token>
+		</rule>
+	</definition>
+	<definition name="ADVP" end="false">
+		<rule>
+			<token>ADV</token>
+		</rule>
+		<rule>
+			<token>NEG</token>
+			<token>ADVP</token>
+		</rule>
+		<rule>
+			<token>ADV</token>
+			<token>ADVP</token>
+		</rule>
+		<rule>
+			<token>ADVP</token>
+			<token>CONJ</token>
+			<token>ADVP</token>
+		</rule>
+	</definition>
+</definitions>
