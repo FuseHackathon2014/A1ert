@@ -63,8 +63,8 @@ class NoteManager {
     private static function emailAlert($id, $message)
     {
         $url = 'https://api.sendgrid.com/';
-        $user = "iismathwizard";
-        $pass = "Hotfeedmathwizard36696";
+        $user = USER;
+        $pass = PASS;
 
         $params = array(
             'api_user'  => $user,
